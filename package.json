@@ -1,0 +1,23 @@
+{
+  "name": "@cloviscarmezini/fluentsql",
+  "version": "1.1.2",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs ",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --coverage ",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --watchAll "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloviscarmezini/fluentsql.git"
+  },
+  "keywords": [],
+  "author": "cloviscarmezini",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
